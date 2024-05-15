@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smarthomeapp/pages/geotracking.dart';
 import 'package:smarthomeapp/pages/permit.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -41,6 +42,10 @@ class MyDrawer extends StatelessWidget {
               // Update the state of the app
               // Then close the drawer
               Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => LocationTrackingPage()),
+              );
             },
           ),
           ListTile(

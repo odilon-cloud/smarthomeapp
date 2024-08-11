@@ -20,8 +20,8 @@ The **Smart Sensor App** is a cross-platform mobile application developed using 
 
 1. **Clone the repository:**
    ```bash
-   [git clone https://github.com/yourusername/smart-sensor-app.git](https://github.com/odilon-cloud/smarthomeapp.git)
-   cd smart-sensor-app
+   git clone https://github.com/yourusername/smart-sensor-app.git
+      cd smart-sensor-app
    ```
 
 2. **Install dependencies:**
